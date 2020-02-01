@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  },
+  "connection": "default",
+  "collectionName": "contacts"
+}
