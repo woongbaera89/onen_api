@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "contacts",
   "info": {
     "name": "contact"
   },
@@ -9,8 +11,12 @@
   "attributes": {
     "data": {
       "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "contacts"
+  }
 }
